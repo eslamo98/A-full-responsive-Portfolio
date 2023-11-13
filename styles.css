@@ -25,7 +25,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--txt-color);
-    
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -330,6 +330,25 @@ section {
     font-size: 1.5rem;
     border-radius: 50%;
     color: var(--bg-secondary);
+}
+
+
+/* Skills styles */ 
+#skills .services-row {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+#skills .service-box {
+    width: 224px;
+    margin: 0;
+    padding: 10px 15px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Contact styles */
