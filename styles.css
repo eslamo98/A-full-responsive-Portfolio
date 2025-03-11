@@ -29,9 +29,9 @@ body {
     scroll-behavior: smooth;
 }
 
-section {
+/* section {
     height: 100vh;
-}
+} */
 /* Header */
 .header {
     position: fixed;
@@ -355,6 +355,7 @@ section {
 .contact {
     background-color: var(--bg-color);
     padding: 5rem var(--main-padding);
+    height: auto;
 }
 
 .contact form {
@@ -448,9 +449,9 @@ footer a {
         --main-padding: 3rem;
     }
 
-    section {
+    /* section {
         height: auto;
-    }
+    } */
     .home {
         padding: 8rem var(--main-padding);
     }

@@ -15,7 +15,7 @@ window.onscroll = function () {
                 link.classList.remove("active");
             });
 
-            document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
+            document.querySelector("header nav a[href*=" + id + "]")?.classList.add("active");
         }
     })
     // console.log(window.scrollY);
@@ -71,7 +71,7 @@ ScrollReveal().reveal('.home-right-side, .services-row, .portfolio-grid, form', 
 
 // =================== Type JS =================== //
 const typed = new Typed(".multiple-text", {
-    strings: ["Frontend Developer", "Programmer"],
+    strings: ["Fullstack(.Net and Angular)", "Programmer"],
     typeSpeed: 100,
     backSpeed: 100,
     delay: 1000,
